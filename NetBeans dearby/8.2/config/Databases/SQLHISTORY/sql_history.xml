@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><history><sql date="1740146648443" url="jdbc:derby://localhost:1527/Add_Candidates">alter table Add_Candidates COLUMN ELECTION_TYPE to Select_Election</sql><sql date="1741435436533" url="jdbc:derby://localhost:1527/Add_Election">select*from Add_Elections</sql><sql date="1740393443867" url="jdbc:derby://localhost:1527/User_Registration">Sselect*from User_Registration</sql><sql date="1741165456597" url="jdbc:derby://localhost:1527/Votes">CREATE TABLE VOTES (
+    ID INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    EMAIL VARCHAR(100),
+    CANDIDATE_ID INT,
+    ELECTION_TYPE VARCHAR(50),
+    FOREIGN KEY (CANDIDATE_ID) REFERENCES ADD_CANDIDATES (ID)
+)</sql><sql date="1741165568089" url="jdbc:derby://localhost:1527/Votes">CREATE TABLE VOTES (
+    ID INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    EMAIL VARCHAR(100),
+    CANDIDATE_ID INT,
+    ELECTION_TYPE VARCHAR(50),
+    FOREIGN KEY (CANDIDATE_ID) REFERENCES ADD_CANDIDATES(ID)
+)</sql><sql date="1743406739152" url="jdbc:derby://localhost:1527/Users_Registration">select*from Users_Registration</sql><sql date="1740393503501" url="jdbc:derby://localhost:1527/User_Registration">ALTER TABLE User_Registration RENAME COLUMN NAME TO name</sql><sql date="1740393409651" url="jdbc:derby://localhost:1527/User_Registration">String query = "INSERT INTO User_Registration (\"NAME\", gender, dob, contact, address, email, password, confirm_password) VALUES (?, ?, ?, ?, ?, ?, ?, ?)"</sql><sql date="1742282518426" url="jdbc:derby://localhost:1527/Add_Candidates">UPADATE ADD_CANDIDATES SET TOTAL_VOTES = TOTAL_VOTES+1</sql><sql date="1742284113587" url="jdbc:derby://localhost:1527/Add_Candidates">UPDATE Add_Candidates SET TOTAL_VOTES = TOTAL_VOTES+1 WHERE ID=1</sql><sql date="1742398596663" url="jdbc:derby://localhost:1527/Users_Registration">DELETE from Users_Registration WHERE ID=38</sql><sql date="1742284186910" url="jdbc:derby://localhost:1527/Add_Candidates">UPDATE Add_Candidates SET TOTAL_VOTES = TOTAL_VOTES+1 WHERE ID=3</sql><sql date="1742398588038" url="jdbc:derby://localhost:1527/Users_Registration">DELETE from Users_Registration WHERE ID=36</sql><sql date="1740393451304" url="jdbc:derby://localhost:1527/User_Registration">Select*from User_Registration</sql><sql date="1741533570255" url="jdbc:derby://localhost:1527/Votes">ALTER TABLE Votes ADD CONSTRAINT PK_Votes PRIMARY KEY (EMAIL, ELECTIONTYPE)</sql><sql date="1741450879718" url="jdbc:derby://localhost:1527/Add_Candidates">SELECT ID, CANDIDATE_NAME, TOTAL_VOTES FROM ADD_CANDIDATES WHERE ELECTION_TYPE = 'Rajya Sabha'</sql><sql date="1740644542377" url="jdbc:derby://localhost:1527/Users_Registration">SELECT * FROM SYS.SYSTABLES WHERE TABLENAME = 'USERS_REGISTRATION'</sql><sql date="1740325474732" url="jdbc:derby://localhost:1527/User_Registration">CREATE TABLE User_Registration (
+    id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    fullname VARCHAR(100),
+    gender VARCHAR(10),
+    dob DATE,
+    contact VARCHAR(15),
+    address VARCHAR(255),
+    email VARCHAR(100) UNIQUE,
+    password VARCHAR(100)
+)</sql><sql date="1742284133055" url="jdbc:derby://localhost:1527/Add_Candidates">SELECT*FROM Add_Candidate</sql><sql date="1742284192269" url="jdbc:derby://localhost:1527/Add_Candidates">UPDATE Add_Candidates SET TOTAL_VOTES = TOTAL_VOTES+1 WHERE ID=4</sql><sql date="1740394318735" url="jdbc:derby://localhost:1527/Users_Registration">CREATE TABLE Users_Registration (
+    ID INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    FULLNAME VARCHAR(255) NOT NULL,
+    GENDER VARCHAR(10) NOT NULL,
+    DOB DATE NOT NULL,
+    CONTACT VARCHAR(15) NOT NULL,
+    ADDRESS VARCHAR(255) NOT NULL,
+    EMAIL VARCHAR(255) UNIQUE NOT NULL,
+    PASSWORD VARCHAR(255) NOT NULL,
+    CONFIRM_PASSWORD VARCHAR(255) NOT NULL
+)</sql><sql date="1742284198925" url="jdbc:derby://localhost:1527/Add_Candidates">UPDATE Add_Candidates SET TOTAL_VOTES = TOTAL_VOTES+1 WHERE ID=6</sql><sql date="1741165390872" url="jdbc:derby://localhost:1527/Votes">CREATE TABLE VOTES (
+    ID INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    EMAIL VARCHAR(100),
+    CANDIDATE_ID INT,
+    ELECTION_TYPE VARCHAR(50),
+    FOREIGN KEY (CANDIDATE_ID) REFERENCES ADD_CANDIDATESID)
+)</sql><sql date="1741012206127" url="jdbc:derby://localhost:1527/Voting">select*from Voting</sql><sql date="1739979951775" url="jdbc:derby://localhost:1527/Admin_Login">create table Admin_Login(username varchar(50) primary key, password varchar(50) not null)</sql><sql date="1740808121440" url="jdbc:derby://localhost:1527/Voting">CREATE TABLE Voting (
+    id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    voter_email VARCHAR(100) NOT NULL,
+    election_type VARCHAR(50) NOT NULL,
+    candidate_id INT NOT NULL,
+    FOREIGN KEY (ID) REFERENCES ADD_CANDIDATES(id),
+    UNIQUE (voter_email, election_type)
+)</sql><sql date="1740393532960" url="jdbc:derby://localhost:1527/User_Registration">Select *from User_Registration</sql><sql date="1741165860544" url="jdbc:derby://localhost:1527/Votes">CREATE TABLE VOTES (
+    ID INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    EMAIL VARCHAR(100),
+    CANDIDATE_ID INT,
+    ELECTION_TYPE VARCHAR(50),
+    FOREIGN KEY (CANDIDATE_ID) REFERENCES ADD_CANDIDATES(ID) ON DELETE CASCADE
+)</sql><sql date="1740845883486" url="jdbc:derby://localhost:1527/Voting">CREATE TABLE Voting (
+    id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    email VARCHAR(255),
+    candidate_id INT,
+    election_id INT,
+    UNIQUE (email, election_id)
+)</sql><sql date="1742284104182" url="jdbc:derby://localhost:1527/Add_Candidates">UPADATE Add_Candidates SET TOTAL_VOTES = TOTAL_VOTES+1 WHERE ID=1</sql><sql date="1740644478835" url="jdbc:derby://localhost:1527/Users_Registration">SELECT * FROM SYS.SYSTABLES WHERE TABLENAME = 'USER_REGISTRATION'</sql><sql date="1740393274505" url="jdbc:derby://localhost:1527/User_Registration">SELECT * FROM SYS.SYSTABLES WHERE TABLENAME = 'USER_REGISTRATION'</sql><sql date="1740808041321" url="jdbc:derby://localhost:1527/Voting">CREATE TABLE Voting (
+    id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    voter_email VARCHAR(100) NOT NULL,
+    election_type VARCHAR(50) NOT NULL,
+    candidate_id INT NOT NULL,
+    FOREIGN KEY (candidate_id) REFERENCES ADD_CANDIDATES(id),
+    UNIQUE (voter_email, election_type)
+)</sql><sql date="1740757451826" url="jdbc:derby://localhost:1527/Votes">CREATE TABLE Votes (
+    id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    user_email VARCHAR(100) NOT NULL, 
+    election_type VARCHAR(50) NOT NULL,
+    candidate_id INT NOT NULL,
+    FOREIGN KEY (candidate_id) REFERENCES Add_Candidates(id) ON DELETE CASCADE
+)</sql><sql date="1742737568755" url="jdbc:derby://localhost:1527/Votes">select*from Votes</sql><sql date="1742224257139" url="jdbc:derby://localhost:1527/Votes">Delete from Votes Where #=3</sql><sql date="1741531653627" url="jdbc:derby://localhost:1527/Add_Candidates">select*from Votes</sql><sql date="1740647011134" url="jdbc:derby://localhost:1527/Users_Registration">Delete from Users_Registration where ID NOT IN ( 21, 22 )</sql><sql date="1742111448872" url="jdbc:derby://localhost:1527/Add_Candidates">SELECT ID, CANDIDATE_NAME, TOTAL_VOTES FROM Add_Candidates</sql><sql date="1740295395907" url="jdbc:derby://localhost:1527/Add_Candidates">CREATE TABLE Add_Candidates (
+    id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    election_type VARCHAR(50) NOT NULL,
+    candidate_name VARCHAR(100) NOT NULL,
+    candidate_pic VARCHAR(255) NOT NULL,
+    party_name VARCHAR(100) NOT NULL,
+    party_pic VARCHAR(255) NOT NULL,
+    address VARCHAR(255) NOT NULL,
+    phone_no VARCHAR(10) NOT NULL
+)</sql><sql date="1740821130064" url="jdbc:derby://localhost:1527/Voting">CREATE TABLE VOTING (
+    ID INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    ELECTION_TYPE VARCHAR(100),
+    CANDIDATE_NAME VARCHAR(100),
+    PARTY_NAME VARCHAR(100),
+    VOTER_EMAIL VARCHAR(100) UNIQUE
+)</sql><sql date="1741165802329" url="jdbc:derby://localhost:1527/Votes">DROP TABLE Votes</sql><sql date="1741165491876" url="jdbc:derby://localhost:1527/Add_Candidates">a</sql><sql date="1740394241554" url="jdbc:derby://localhost:1527/Users_Registration">CREATE TABLE User_Registration (
+    ID INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    FULLNAME VARCHAR(255) NOT NULL,
+    GENDER VARCHAR(10) NOT NULL,
+    DOB DATE NOT NULL,
+    CONTACT VARCHAR(15) NOT NULL,
+    ADDRESS VARCHAR(255) NOT NULL,
+    EMAIL VARCHAR(255) UNIQUE NOT NULL,
+    PASSWORD VARCHAR(255) NOT NULL,
+    CONFIRM_PASSWORD VARCHAR(255) NOT NULL
+)</sql><sql date="1741433937975" url="jdbc:derby://localhost:1527/Votes">CREATE TABLE Votes (
+    email VARCHAR(255),
+    electionType VARCHAR(255),
+    PRIMARY KEY (email, electionType)
+)</sql><sql date="1740757425953" url="jdbc:derby://localhost:1527/Votes">CREATE TABLE Votes (
+    id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    user_email VARCHAR(100) NOT NULL,      election_type VARCHAR(50) NOT NULL,
+    candidate_id INT NOT NULL,
+    FOREIGN KEY (candidate_id) REFERENCES Add_Candidates(id) ON DELETE CASCADE
+)</sql><sql date="1740043659690" url="jdbc:derby://localhost:1527/Admin_Login">connect 'jbbc:derby://localhost:1527/Admin_Login' user 'Admin_Teju' password 'Admin_Teju;'</sql><sql date="1741165703822" url="jdbc:derby://localhost:1527/Votes">CREATE TABLE VOTES (
+    ID INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    EMAIL VARCHAR(100),
+    CANDIDATE_ID INT,
+    ELECTION_TYPE VARCHAR(50),
+    FOREIGN KEY (CANDIDATE_ID) REFERENCES "ADD_CANDIDATES"(ID)
+)</sql><sql date="1741449795709" url="jdbc:derby://localhost:1527/Add_Candidates">select*from Add_Candidates WHERE ELECTION_TYPE = "Rajya Sabha"</sql><sql date="1742279155337" url="jdbc:derby://localhost:1527/Add_Election">select*from Select_Election</sql><sql date="1741449748506" url="jdbc:derby://localhost:1527/Add_Candidates">select*from Add_Candidates WHERE Election_ID="Rajya Sabha"</sql><sql date="1740757607499" url="jdbc:derby://localhost:1527/Votes">CREATE TABLE Votes (
+    id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    user_email VARCHAR(100) NOT NULL,
+    election_type VARCHAR(50) NOT NULL,
+    candidate_id INT NOT NULL,
+    FOREIGN KEY (candidate_id) REFERENCES Add_Candidates(id) ON DELETE CASCADE
+)</sql><sql date="1741449694205" url="jdbc:derby://localhost:1527/Add_Candidates">Sselect*from Add_Candidates WHERE Election_ID="Rajya Sabha"</sql><sql date="1741449618312" url="jdbc:derby://localhost:1527/Add_Candidates">select*from Add_Candidates WHERE Election_Type="Rajyasabha"</sql><sql date="1741166516684" url="jdbc:derby://localhost:1527/Add_Candidates">ALTER TABLE Add_Candidates ADD TOTAL_VOTES INT DEFAULT 0</sql><sql date="1740236929806" url="jdbc:derby://localhost:1527/User_Registration">CREATE TABLE User_Registration (
+    id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY, 
+    fullname VARCHAR(100) NOT NULL,
+    gender VARCHAR(10) NOT NULL,
+    dob DATE NOT NULL,
+    contact VARCHAR(15) NOT NULL UNIQUE,
+    address VARCHAR(255) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    password VARCHAR(100) NOT NULL
+)</sql><sql date="1740647033335" url="jdbc:derby://localhost:1527/Users_Registration">Select*from Users Registration</sql><sql date="1740393358357" url="jdbc:derby://localhost:1527/User_Registration">ALTER TABLE User_Registration ADD name VARCHAR(100)</sql><sql date="1742736443847" url="jdbc:derby://localhost:1527/Add_Candidates">select*from Add_Candidates</sql><sql date="1742279137323" url="jdbc:derby://localhost:1527/Add_Election">select*from Add_Candidates</sql><sql date="1742223907869" url="jdbc:derby://localhost:1527/Add_Candidates">delete from Add_Candidates where Election Id-8</sql><sql date="1740286610324" url="jdbc:derby://localhost:1527/User_Registration">delete from User_Registration where id=2</sql><sql date="1740286746797" url="jdbc:derby://localhost:1527/User_Registration">delete from User_Registration where Id=3</sql><sql date="1740385310065" url="jdbc:derby://localhost:1527/User_Registration">delete from User_Registration where id=4</sql><sql date="1740286418796" url="jdbc:derby://localhost:1527/User_Registration">delete from User_Registration where id=1</sql><sql date="1740644569554" url="jdbc:derby://localhost:1527/Users_Registration">SELECT * FROM USER_REGISTRATION FETCH FIRST 1 ROWS ONLY</sql><sql date="1740286735689" url="jdbc:derby://localhost:1527/User_Registration">delte from User_Registration where Id=3</sql><sql date="1740806608005" url="jdbc:derby://localhost:1527/Voting">CREATE TABLE Vote_Now (
+    id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    voter_email VARCHAR(100) NOT NULL,
+    election_type VARCHAR(50) NOT NULL,
+    candidate_id INT NOT NULL,
+    FOREIGN KEY (candidate_id) REFERENCES Add_Candidates(id),
+    UNIQUE (voter_email, election_type)
+)</sql><sql date="1740646695622" url="jdbc:derby://localhost:1527/Users_Registration">UPDATE Users_Registration
+SET GENDER = 'Female'
+WHERE GENDER = 'male'
+  AND ID &lt;&gt; 28</sql><sql date="1740393319130" url="jdbc:derby://localhost:1527/User_Registration">DESCRIBE User_Registration</sql><sql date="1739979575887" url="jdbc:derby://localhost:1527/Admin_Login">use Admin_Login</sql><sql date="1741165735506" url="jdbc:derby://localhost:1527/Votes">CREATE TABLE VOTES (
+    ID INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    EMAIL VARCHAR(100),
+    CANDIDATE_ID INT,
+    ELECTION_TYPE VARCHAR(50),
+    PRIMARY KEY (CANDIDATE_ID) REFERENCES "ADD_CANDIDATES"(ID)
+)</sql><sql date="1740288707128" url="jdbc:derby://localhost:1527/Add_Candidates">CREATE TABLE Add_Candidates(id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY, 
+election_type VARCHAR(50)NOT NULL,
+candidate_name VARCHAR(100)NOT NULL,
+candidate_pic VARCHAR(255)NOT NULL,
+party_name VARCHAR(100)NOT NULL,
+party_pic VARCHAR(255)NOT NULL,
+address VARCHAR(255)NOT NULL,
+phone_no VARCHAR(10)NOT NULL
+)</sql><sql date="1743150064130" url="jdbc:derby://localhost:1527/Users_Registration">selec*from Users_Registration</sql><sql date="1740807757669" url="jdbc:derby://localhost:1527/Add_Candidates">show tables</sql><sql date="1740200488649" url="jdbc:derby://localhost:1527/Add_Candidates">delete from Add_Candidates where ID=3</sql><sql date="1740200569143" url="jdbc:derby://localhost:1527/Add_Candidates">delete from Add_Candidates where ID=2</sql><sql date="1742111758384" url="jdbc:derby://localhost:1527/Add_Candidates">UPDATE Add_Candidates SET TOTAL_VOTES = TOTAL_VOTES + 1 WHERE ID = 1</sql><sql date="1742113894595" url="jdbc:derby://localhost:1527/Add_Candidates">UPDATE Add_Candidates SET TOTAL_VOTES = TOTAL_VOTES + 1 WHERE ID = 3</sql><sql date="1742113901266" url="jdbc:derby://localhost:1527/Add_Candidates">UPDATE Add_Candidates SET TOTAL_VOTES = TOTAL_VOTES + 1 WHERE ID = 4</sql><sql date="1741165946188" url="jdbc:derby://localhost:1527/Votes">CREATE TABLE VOTES (
+    ID INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    EMAIL VARCHAR(100),
+    CANDIDATE_ID INT,
+    ELECTION_TYPE VARCHAR(50),
+    FOREIGN KEY (CANDIDATE_ID) REFERENCES "Add_Candidates"(ID) ON DELETE CASCADE
+)</sql><sql date="1742735922368" url="jdbc:derby://localhost:1527/Add_Election">select*from Add_Election</sql><sql date="1742113913406" url="jdbc:derby://localhost:1527/Add_Candidates">UPDATE Add_Candidates SET TOTAL_VOTES = TOTAL_VOTES + 1 WHERE ID = 6</sql><sql date="1739980063345" url="jdbc:derby://localhost:1527/Admin_Login">insert into Admin_Login(username,password)values("Admin_Teju","Admin_Teju")</sql><sql date="1740286714456" url="jdbc:derby://localhost:1527/User_Registration">select*from User_Registration where Id=3</sql><sql date="1740146383461" url="jdbc:derby://localhost:1527/Add_Candidates">CREATE TABLE Add_Candidates (
+    id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    Select_Election VARCHAR(50) NOT NULL,
+    Candidate_Name VARCHAR(100) NOT NULL,
+    Party_Name VARCHAR(100) NOT NULL,
+    Address VARCHAR(255) NOT NULL,
+    Phone_No VARCHAR(10) NOT NULL,
+    Party_Pic VARCHAR(255) NOT NULL
+)</sql><sql date="1740146457581" url="jdbc:derby://localhost:1527/Add_Candidates">Alter TABLE Add_Candidates (
+    id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    Select_Election VARCHAR(50) NOT NULL,
+    Candidate_Name VARCHAR(100) NOT NULL,
+    Party_Name VARCHAR(100) NOT NULL,
+    Address VARCHAR(255) NOT NULL,
+    Phone_No VARCHAR(10) NOT NULL,
+    Party_Pic VARCHAR(255) NOT NULL
+)</sql><sql date="1740288678318" url="jdbc:derby://localhost:1527/Add_Candidates">CREATE TABLE Add_Candidates(id INT PRIMARY KEY GENERATED AS ALWAYS IDENTITY, 
+election_type VARCHAR(50)NOT NULL,
+candidate_name VARCHAR(100)NOT NULL,
+candidate_pic VARCHAR(255)NOT NULL,
+party_name VARCHAR(100)NOT NULL,
+party_pic VARCHAR(255)NOT NULL,
+address VARCHAR(255)NOT NULL,
+phone_no VARCHAR(10)NOT NULL
+)</sql><sql date="1742223338470" url="jdbc:derby://localhost:1527/Add_Candidates">Select *from Add_Candidates</sql><sql date="1742224282262" url="jdbc:derby://localhost:1527/Votes">select*from Voes</sql><sql date="1740584938963" url="jdbc:derby://localhost:1527/Users_Registration">delete from Users_Registration</sql><sql date="1741449643095" url="jdbc:derby://localhost:1527/Add_Candidates">select*from Add_Candidates WHERE Election_ID="Rajyasabha"</sql><sql date="1739979974664" url="jdbc:derby://localhost:1527/Admin_Login">insert into Admin_Login(username,password)values('Admin_Teju','Admin_Teju')</sql><sql date="1740557820162" url="jdbc:derby://localhost:1527/Users_Registration">ALTER TABLE Users_Registration ADD status VARCHAR(10) DEFAULT 'pending'</sql><sql date="1742224019846" url="jdbc:derby://localhost:1527/Add_Candidates">Delete from Add_Candidates where ID=8</sql><sql date="1742223253054" url="jdbc:derby://localhost:1527/Add_Candidates">Delete from Add_Candidates Where id=7</sql><sql date="1740146189766" url="jdbc:derby://localhost:1527/Add_Candidates">CREATE TABLE Add_Candidates (
+    id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    election_type VARCHAR(50) NOT NULL,
+    candidate_name VARCHAR(100) NOT NULL,
+    party_name VARCHAR(100) NOT NULL,
+    address VARCHAR(255) NOT NULL,
+    phone_no VARCHAR(10) NOT NULL,
+    party_pic VARCHAR(255) NOT NULL
+)</sql><sql date="1741165692244" url="jdbc:derby://localhost:1527/Votes">zCREATE TABLE VOTES (
+    ID INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    EMAIL VARCHAR(100),
+    CANDIDATE_ID INT,
+    ELECTION_TYPE VARCHAR(50),
+    FOREIGN KEY (CANDIDATE_ID) REFERENCES "ADD_CANDIDATES"(ID)
+)</sql><sql date="1739980011958" url="jdbc:derby://localhost:1527/Admin_Login">insert into Admin_Login(username,password)values('Admin_Teju','Admin_Tejuu')</sql><sql date="1740040132823" url="jdbc:derby://localhost:1527/Admin_Login">select*from Admin_Login</sql></history>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="me.dsnet.quickopener">
+    <module_version install_time="1734441963006" last="true" origin="NetBeans Plugin Portal" specification_version="1.3.1">
+        <file crc="3438671593" name="config/Modules/me-dsnet-quickopener.xml"/>
+        <file crc="2526228326" name="modules/ext/me.dsnet.quickopener/javax-help/javahelp.jar"/>
+        <file crc="826192464" name="modules/ext/me.dsnet.quickopener/org-jdesktop/beansbinding.jar"/>
+        <file crc="1334695474" name="modules/me-dsnet-quickopener.jar"/>
+    </module_version>
+</module>

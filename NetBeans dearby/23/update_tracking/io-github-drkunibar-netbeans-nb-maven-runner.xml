@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="io.github.drkunibar.netbeans.nb.maven.runner">
+    <module_version install_time="1734441963093" last="true" origin="NetBeans Plugin Portal" specification_version="1.0.1">
+        <file crc="2719060023" name="config/Modules/io-github-drkunibar-netbeans-nb-maven-runner.xml"/>
+        <file crc="3992640131" name="modules/ext/io.github.drkunibar.netbeans.nb-maven-runner/com-google-errorprone/error_prone_annotations.jar"/>
+        <file crc="1925647747" name="modules/ext/io.github.drkunibar.netbeans.nb-maven-runner/com-google-guava/failureaccess.jar"/>
+        <file crc="2177329151" name="modules/ext/io.github.drkunibar.netbeans.nb-maven-runner/com-google-guava/guava.jar"/>
+        <file crc="4084025488" name="modules/ext/io.github.drkunibar.netbeans.nb-maven-runner/com-google-guava/listenablefuture.jar"/>
+        <file crc="4146464743" name="modules/ext/io.github.drkunibar.netbeans.nb-maven-runner/com-google-j2objc/j2objc-annotations.jar"/>
+        <file crc="3364418595" name="modules/ext/io.github.drkunibar.netbeans.nb-maven-runner/org-apache-commons/commons-lang3.jar"/>
+        <file crc="2513697977" name="modules/ext/io.github.drkunibar.netbeans.nb-maven-runner/org-checkerframework/checker-qual.jar"/>
+        <file crc="2618917475" name="modules/ext/io.github.drkunibar.netbeans.nb-maven-runner/org-slf4j/slf4j-api.jar"/>
+        <file crc="3726348191" name="modules/ext/io.github.drkunibar.netbeans.nb-maven-runner/org-slf4j/slf4j-jdk14.jar"/>
+        <file crc="1159515739" name="modules/io-github-drkunibar-netbeans-nb-maven-runner.jar"/>
+    </module_version>
+</module>

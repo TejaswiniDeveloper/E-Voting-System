@@ -1,0 +1,23 @@
+/* AUTOMATICALLY GENERATED ON Sun Sep 14 21:00:27 IST 2025*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.WebResourcePermission "/";
+  permission javax.security.jacc.WebUserDataPermission "/";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.WebRoleRefPermission "Servlets.Check_Vote_Servlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "**";
+  permission javax.security.jacc.WebRoleRefPermission "", "**";
+  permission javax.security.jacc.WebRoleRefPermission "Servlets.User_Registration_Servlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "Servlets.Admin_Approve_User_Servlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "Servlets.User_Login_Servlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "Delete_Voter_Servlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "Servlets.Add_Candidates_Servlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "Servlets.Vote_Now_Servlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "User_Registration_Servlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "default", "**";
+  permission javax.security.jacc.WebRoleRefPermission "Servlets.Fetch_Results_Servlet", "**";
+};
+

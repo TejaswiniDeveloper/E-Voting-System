@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="code_evaluator">
+        <attr name="WinSys-TCRef-Order" stringvalue="evaluatorPane"/>
+    </fileobject>
+    <fileobject name="commonpalette">
+        <attr name="WinSys-TCRef-Order" stringvalue="CommonPalette"/>
+    </fileobject>
+    <fileobject name="editor">
+        <attr name="WinSys-TCRef-Order" stringvalue="CoverageReportTopComponent/JShellEditor/dbgInstances"/>
+    </fileobject>
+    <fileobject name="explorer">
+        <attr name="WinSys-TCRef-Order" stringvalue="projectTabLogical_tc/services/projectTab_tc/favorites/DashboardTopComponent/debuggingView"/>
+    </fileobject>
+    <fileobject name="navigator">
+        <attr name="WinSys-TCRef-Order" stringvalue="navigatorTC/breakpointsView/TruffleASTDebugView/DomTC"/>
+    </fileobject>
+    <fileobject name="output">
+        <attr name="WinSys-TCRef-Order" stringvalue="output/NotificationCenterTopComponent/watchesView/localsView/resultsView/callstackView/sources/sessionsView/threadsView/bookmarks/versioning_output/search-results/gsf-testrunner-results/refactoring-preview/find-usages/TerminalContainerTopComponent/svnversioning/hgversioningTC/GitVersioning/GitRepositories/TaskListTopComponent/eventsView/profiler_pp/CallHierarchyTopComponent/AnalyzerTopComponent/AnalysisResultTopComponent/JavadocTopComponent/classes/CheckRegexTopComponent"/>
+    </fileobject>
+    <fileobject name="properties">
+        <attr name="WinSys-TCRef-Order" stringvalue="properties/AnalyzeStackTopComponent/JavaHierarchyTopComponent/KnockoutTC/timers/MavenRunnerTopComponent/MavenRunnerTopComponent_1"/>
+    </fileobject>
+    <fileobject name="rightSlidingSide">
+        <attr name="WinSys-TCRef-Order" stringvalue="CssStylesTC"/>
+    </fileobject>
+</attributes>

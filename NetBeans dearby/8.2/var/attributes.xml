@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="C:|Users|LENOVO|AppData|Local|NetBeans|Cache|8.2|index|s94|java|15|gensrc|javax|servlet|http|HttpServlet.java">
+        <attr name="classfile-binaryName" stringvalue="javax/servlet/http/HttpServlet"/>
+        <attr name="classfile-root" urlvalue="jar:file:/C:/Program%20Files%20(x86)/glassfish-4.1.1/glassfish/modules/javax.servlet-api.jar!/"/>
+        <attr name="disable-java-errors" boolvalue="true"/>
+        <attr name="origin-hash" stringvalue="8F339E1C7E52C1955F3CFB560BE3EBA5"/>
+    </fileobject>
+    <fileobject name="C:|Users|LENOVO|AppData|Local|NetBeans|Cache|8.2|mavencachedirs|1577562036|org-netbeans-modules-profiler">
+        <attr name="settingsFor" urlvalue="file:/C:/Users/LENOVO/Desktop/E-Voting!!/MavenScrumToys/"/>
+    </fileobject>
+    <fileobject name="C:|Users|LENOVO|AppData|Local|NetBeans|Cache|8.2|mavencachedirs|79172951|org-netbeans-modules-profiler">
+        <attr name="settingsFor" urlvalue="file:/C:/Users/LENOVO/Documents/NetBeansProjects/mavenproject2/"/>
+    </fileobject>
+    <fileobject name="C:|Users|LENOVO|AppData|Local|NetBeans|Cache|8.2|remotefiles|ef4087e2fa594412ed29130f5be020e5.css">
+        <attr name="remote.url" stringvalue="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    </fileobject>
+    <fileobject name="C:|Users|LENOVO|Desktop|E-Voting!!|MavenScrumToys">
+        <attr name="AuxilaryConfiguration" stringvalue="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>\u000d\u000a&lt;project-private>\u000d\u000a    &lt;properties xmlns=&quot;http://www.netbeans.org/ns/maven-properties-data/1&quot;>\u000d\u000a        &lt;org-netbeans-modules-maven-j2ee.netbeans_2e_deployment_2e_server_2e_id>[C:\Users\LENOVO\GlassFish_Server\glassfish;C:\Users\LENOVO\GlassFish_Server\glassfish\domains\domain1]deployer:gfv3ee6wc:localhost:4848&lt;/org-netbeans-modules-maven-j2ee.netbeans_2e_deployment_2e_server_2e_id>\u000d\u000a    &lt;/properties>\u000d\u000a    &lt;open-files xmlns=&quot;http://www.netbeans.org/ns/projectui-open-files/2&quot;>\u000d\u000a        &lt;group>\u000d\u000a            &lt;file>file:/C:/Users/LENOVO/Desktop/E-Voting!!/MavenScrumToys/src/main/webapp/newjsp.jsp&lt;/file>\u000d\u000a        &lt;/group>\u000d\u000a    &lt;/open-files>\u000d\u000a    &lt;editor-bookmarks xmlns=&quot;http://www.netbeans.org/ns/editor-bookmarks/2&quot; lastBookmarkId=&quot;0&quot;/>\u000d\u000a&lt;/project-private>\u000d\u000a"/>
+    </fileobject>
+    <fileobject name="C:|Users|LENOVO|Documents|NetBeansProjects|E-Voting!!|src|java|Servlets|Add_Candidates_Servlet.java">
+        <attr name="org.netbeans.modules.web.IsServletFile" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="C:|Users|LENOVO|Documents|NetBeansProjects|E-Voting!!|src|java|Servlets|Admin_Approve_User_Servlet.java">
+        <attr name="org.netbeans.modules.web.IsServletFile" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="C:|Users|LENOVO|Documents|NetBeansProjects|E-Voting!!|src|java|Servlets|Delete_Voter_Servlet.java">
+        <attr name="org.netbeans.modules.web.IsServletFile" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="C:|Users|LENOVO|Documents|NetBeansProjects|E-Voting!!|src|java|Servlets|User_Login_Servlet.java">
+        <attr name="org.netbeans.modules.web.IsServletFile" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="C:|Users|LENOVO|Documents|NetBeansProjects|E-Voting!!|src|java|Servlets|User_Registration_Servlet.java">
+        <attr name="org.netbeans.modules.web.IsServletFile" boolvalue="true"/>
+    </fileobject>
+</attributes>

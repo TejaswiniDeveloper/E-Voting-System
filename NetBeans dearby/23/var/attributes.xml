@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="C:|Users|LENOVO|AppData|Local|NetBeans|Cache|23|mavencachedirs|1486513528|org-netbeans-modules-profiler">
+        <attr name="settingsFor" urlvalue="file:/C:/Users/LENOVO/Desktop/E-Voting/Electronic-Voting/"/>
+    </fileobject>
+    <fileobject name="C:|Users|LENOVO|AppData|Local|NetBeans|Cache|23|mavencachedirs|2120535117|org-netbeans-modules-profiler">
+        <attr name="settingsFor" urlvalue="file:/C:/Users/LENOVO/Desktop/E-Voting/mavenproject1/"/>
+    </fileobject>
+    <fileobject name="C:|Users|LENOVO|AppData|Local|NetBeans|Cache|23|mavencachedirs|537815486|org-netbeans-modules-profiler">
+        <attr name="settingsFor" urlvalue="file:/C:/Users/LENOVO/Desktop/E-Voting/E-V/"/>
+    </fileobject>
+    <fileobject name="C:|Users|LENOVO|AppData|Local|NetBeans|Cache|23|mavencachedirs|61002438|org-netbeans-modules-profiler">
+        <attr name="settingsFor" urlvalue="file:/C:/Users/LENOVO/Desktop/E-Voting/Electronic_Voting/"/>
+    </fileobject>
+    <fileobject name="C:|Users|LENOVO|AppData|Local|NetBeans|Cache|23|mavencachedirs|695836612|org-netbeans-modules-profiler">
+        <attr name="settingsFor" urlvalue="file:/C:/Users/LENOVO/Desktop/E-Voting%2023/E-Voting/"/>
+    </fileobject>
+    <fileobject name="C:|Users|LENOVO|AppData|Local|NetBeans|Cache|23|mavencachedirs|806781151|org-netbeans-modules-profiler">
+        <attr name="settingsFor" urlvalue="file:/C:/Users/LENOVO/Desktop/E-Voting/E-Voting/"/>
+    </fileobject>
+    <fileobject name="C:|Users|LENOVO|Desktop|E-Voting 23|E-Voting">
+        <attr name="AuxilaryConfiguration" stringvalue="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>\u000d\u000a&lt;project-private>\u000d\u000a    &lt;properties xmlns=&quot;http://www.netbeans.org/ns/maven-properties-data/1&quot;>\u000d\u000a        &lt;org-netbeans-modules-maven-j2ee.netbeans_2e_deployment_2e_server_2e_id>[C:\Users\LENOVO\GlassFish_Server\glassfish;C:\Users\LENOVO\GlassFish_Server\glassfish\domains\domain1]deployer:gfv3ee6wc:localhost:4848&lt;/org-netbeans-modules-maven-j2ee.netbeans_2e_deployment_2e_server_2e_id>\u000d\u000a        &lt;org-netbeans-modules-maven-j2ee.netbeans_2e_selected_2e_browser>default&lt;/org-netbeans-modules-maven-j2ee.netbeans_2e_selected_2e_browser>\u000d\u000a    &lt;/properties>\u000d\u000a    &lt;editor-bookmarks xmlns=&quot;http://www.netbeans.org/ns/editor-bookmarks/2&quot; lastBookmarkId=&quot;0&quot;/>\u000d\u000a    &lt;open-files xmlns=&quot;http://www.netbeans.org/ns/projectui-open-files/2&quot;>\u000d\u000a        &lt;group/>\u000d\u000a    &lt;/open-files>\u000d\u000a&lt;/project-private>\u000d\u000a"/>
+    </fileobject>
+    <fileobject name="C:|Users|LENOVO|Desktop|E-Voting|E-V">
+        <attr name="AuxilaryConfiguration" stringvalue="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>\u000d\u000a&lt;project-private>\u000d\u000a    &lt;properties xmlns=&quot;http://www.netbeans.org/ns/maven-properties-data/1&quot;>\u000d\u000a        &lt;org-netbeans-modules-maven-j2ee.netbeans_2e_deployment_2e_server_2e_id>[C:\Users\LENOVO\GlassFish_Server\glassfish;C:\Users\LENOVO\GlassFish_Server\glassfish\domains\domain1]deployer:gfv3ee6wc:localhost:4848&lt;/org-netbeans-modules-maven-j2ee.netbeans_2e_deployment_2e_server_2e_id>\u000d\u000a        &lt;org-netbeans-modules-maven-j2ee.netbeans_2e_selected_2e_browser>default&lt;/org-netbeans-modules-maven-j2ee.netbeans_2e_selected_2e_browser>\u000d\u000a    &lt;/properties>\u000d\u000a    &lt;editor-bookmarks xmlns=&quot;http://www.netbeans.org/ns/editor-bookmarks/2&quot; lastBookmarkId=&quot;0&quot;/>\u000d\u000a    &lt;open-files xmlns=&quot;http://www.netbeans.org/ns/projectui-open-files/2&quot;>\u000d\u000a        &lt;group>\u000d\u000a            &lt;file>file:/C:/Users/LENOVO/Desktop/E-Voting/E-V/src/main/webapp/index.jsp&lt;/file>\u000d\u000a        &lt;/group>\u000d\u000a    &lt;/open-files>\u000d\u000a&lt;/project-private>\u000d\u000a"/>
+    </fileobject>
+    <fileobject name="C:|Users|LENOVO|Desktop|E-Voting|Electronic-Voting">
+        <attr name="AuxilaryConfiguration" stringvalue="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>\u000d\u000a&lt;project-private>\u000d\u000a    &lt;properties xmlns=&quot;http://www.netbeans.org/ns/maven-properties-data/1&quot;>\u000d\u000a        &lt;org-netbeans-modules-maven-j2ee.netbeans_2e_deployment_2e_server_2e_id>[C:\Users\LENOVO\GlassFish_Server\glassfish;C:\Users\LENOVO\GlassFish_Server\glassfish\domains\domain1]deployer:gfv3ee6wc:localhost:4848&lt;/org-netbeans-modules-maven-j2ee.netbeans_2e_deployment_2e_server_2e_id>\u000d\u000a        &lt;org-netbeans-modules-maven-j2ee.netbeans_2e_selected_2e_browser>default&lt;/org-netbeans-modules-maven-j2ee.netbeans_2e_selected_2e_browser>\u000d\u000a    &lt;/properties>\u000d\u000a    &lt;editor-bookmarks xmlns=&quot;http://www.netbeans.org/ns/editor-bookmarks/2&quot; lastBookmarkId=&quot;0&quot;/>\u000d\u000a&lt;/project-private>\u000d\u000a"/>
+    </fileobject>
+    <fileobject name="C:|Users|LENOVO|Desktop|E-Voting|Electronic_Voting">
+        <attr name="AuxilaryConfiguration" stringvalue="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>\u000d\u000a&lt;project-private>\u000d\u000a    &lt;properties xmlns=&quot;http://www.netbeans.org/ns/maven-properties-data/1&quot;>\u000d\u000a        &lt;org-netbeans-modules-maven-j2ee.netbeans_2e_deployment_2e_server_2e_id>[C:\Users\LENOVO\GlassFish_Server\glassfish;C:\Users\LENOVO\GlassFish_Server\glassfish\domains\domain1]deployer:gfv3ee6wc:localhost:4848&lt;/org-netbeans-modules-maven-j2ee.netbeans_2e_deployment_2e_server_2e_id>\u000d\u000a    &lt;/properties>\u000d\u000a    &lt;editor-bookmarks xmlns=&quot;http://www.netbeans.org/ns/editor-bookmarks/2&quot; lastBookmarkId=&quot;0&quot;/>\u000d\u000a&lt;/project-private>\u000d\u000a"/>
+    </fileobject>
+    <fileobject name="C:|Users|LENOVO|Desktop|E-Voting|mavenproject1">
+        <attr name="AuxilaryConfiguration" stringvalue="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>\u000d\u000a&lt;project-private>\u000d\u000a    &lt;properties xmlns=&quot;http://www.netbeans.org/ns/maven-properties-data/1&quot;>\u000d\u000a        &lt;org-netbeans-modules-maven-j2ee.netbeans_2e_deployment_2e_server_2e_id>[C:\Users\LENOVO\GlassFish_Server\glassfish;C:\Users\LENOVO\GlassFish_Server\glassfish\domains\domain1]deployer:gfv3ee6wc:localhost:4848&lt;/org-netbeans-modules-maven-j2ee.netbeans_2e_deployment_2e_server_2e_id>\u000d\u000a    &lt;/properties>\u000d\u000a&lt;/project-private>\u000d\u000a"/>
+    </fileobject>
+</attributes>

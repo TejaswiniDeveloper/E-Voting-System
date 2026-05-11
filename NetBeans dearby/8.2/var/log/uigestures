@@ -1,0 +1,1333 @@
+<record>
+  <date>2025-09-14T20:59:15</date>
+  <millis>1757863755270</millis>
+  <sequence>13</sequence>
+  <level>300</level>
+  <thread>13</thread>
+  <message>SCREEN SIZE</message>
+  <param>1366</param>
+  <param>768</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2025-09-14T20:59:15</date>
+  <millis>1757863755270</millis>
+  <sequence>14</sequence>
+  <level>700</level>
+  <thread>13</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2025-09-14T20:59:16</date>
+  <millis>1757863756957</millis>
+  <sequence>23</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>13</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Windows</param>
+  <param>Windows</param>
+</record>
+<record>
+  <date>2025-09-14T20:59:18</date>
+  <millis>1757863758457</millis>
+  <sequence>45</sequence>
+  <logger>org.netbeans.modules.uihandler.Installer</logger>
+  <level>800</level>
+  <thread>23</thread>
+  <message>https://netbeans.org/nonav/uigestures/index4.html</message>
+  <exception>
+    <message>java.net.UnknownHostException: netbeans.org</message>
+    <frame>
+      <class>java.net.AbstractPlainSocketImpl</class>
+      <method>connect</method>
+      <line>184</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.net.PlainSocketImpl</class>
+      <method>connect</method>
+      <line>172</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.net.SocksSocketImpl</class>
+      <method>connect</method>
+      <line>392</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.net.Socket</class>
+      <method>connect</method>
+      <line>589</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.security.ssl.SSLSocketImpl</class>
+      <method>connect</method>
+      <line>666</line>
+      <file>${java.home}lib/jsse.jar</file>
+    </frame>
+    <frame>
+      <class>sun.net.NetworkClient</class>
+      <method>doConnect</method>
+      <line>175</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.net.www.http.HttpClient</class>
+      <method>openServer</method>
+      <line>463</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.net.www.http.HttpClient</class>
+      <method>openServer</method>
+      <line>558</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.net.www.protocol.https.HttpsClient</class>
+      <method>&lt;init&gt;</method>
+      <line>264</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.net.www.protocol.https.HttpsClient</class>
+      <method>New</method>
+      <line>367</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection</class>
+      <method>getNewHttpClient</method>
+      <line>191</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.net.www.protocol.http.HttpURLConnection</class>
+      <method>plainConnect0</method>
+      <line>1156</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.net.www.protocol.http.HttpURLConnection$6</class>
+      <method>run</method>
+      <line>1040</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.net.www.protocol.http.HttpURLConnection$6</class>
+      <method>run</method>
+      <line>1038</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivileged</method>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivilegedWithCombiner</method>
+      <line>782</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.net.www.protocol.http.HttpURLConnection</class>
+      <method>plainConnect</method>
+      <line>1037</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection</class>
+      <method>connect</method>
+      <line>177</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.net.www.protocol.https.HttpsURLConnectionImpl</class>
+      <method>connect</method>
+      <line>162</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.uihandler.Installer$Submit</class>
+      <method>doShow</method>
+      <line>1833</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-uihandler.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.uihandler.Installer</class>
+      <method>displaySummary</method>
+      <line>1053</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-uihandler.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.uihandler.Installer</class>
+      <method>displaySummary</method>
+      <line>1031</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-uihandler.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.uihandler.Installer$2Auto</class>
+      <method>run</method>
+      <line>652</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-uihandler.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.util.RequestProcessor$Task</class>
+      <method>run</method>
+      <line>1443</line>
+      <file>${netbeans.home}lib/org-openide-util.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.openide.util.GlobalLookup</class>
+      <method>execute</method>
+      <line>68</line>
+      <file>${netbeans.home}lib/org-openide-util-lookup.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.util.lookup.Lookups</class>
+      <method>executeWith</method>
+      <line>303</line>
+      <file>${netbeans.home}lib/org-openide-util-lookup.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.util.RequestProcessor$Processor</class>
+      <method>run</method>
+      <line>2058</line>
+      <file>${netbeans.home}lib/org-openide-util.jar</file>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2025-09-14T20:59:19</date>
+  <millis>1757863759941</millis>
+  <sequence>46</sequence>
+  <logger>org.netbeans.modules.uihandler.Installer</logger>
+  <level>800</level>
+  <thread>19</thread>
+  <message>Cannot decode URL: unknown</message>
+  <exception>
+    <message>java.net.MalformedURLException: no protocol: unknown</message>
+    <frame>
+      <class>java.net.URL</class>
+      <method>&lt;init&gt;</method>
+      <line>593</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.net.URL</class>
+      <method>&lt;init&gt;</method>
+      <line>490</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.net.URL</class>
+      <method>&lt;init&gt;</method>
+      <line>439</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.uihandler.Installer</class>
+      <method>decodeButtons</method>
+      <line>1190</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-uihandler.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.uihandler.Installer</class>
+      <method>access$900</method>
+      <line>124</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-uihandler.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.uihandler.Installer$Submit</class>
+      <method>actionPerformed</method>
+      <line>2015</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-uihandler.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.uihandler.Installer$SubmitAutomatic$1</class>
+      <method>run</method>
+      <line>2799</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-uihandler.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.event.InvocationEvent</class>
+      <method>dispatch</method>
+      <line>301</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>dispatchEventImpl</method>
+      <line>758</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>access$500</method>
+      <line>97</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$3</class>
+      <method>run</method>
+      <line>709</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$3</class>
+      <method>run</method>
+      <line>703</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivileged</method>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
+      <method>doIntersectionPrivilege</method>
+      <line>74</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>dispatchEvent</method>
+      <line>728</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.TimableEventQueue</class>
+      <method>dispatchEvent</method>
+      <line>159</line>
+      <file>${netbeans.home}modules/org-netbeans-core.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpOneEventForFilters</method>
+      <line>205</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEventsForFilter</method>
+      <line>116</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEventsForHierarchy</method>
+      <line>105</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEvents</method>
+      <line>101</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEvents</method>
+      <line>93</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>run</method>
+      <line>82</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2025-09-14T20:59:23</date>
+  <millis>1757863763691</millis>
+  <sequence>71</sequence>
+  <level>800</level>
+  <thread>12</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>3989188608</param>
+</record>
+<record>
+  <date>2025-09-14T20:59:23</date>
+  <millis>1757863763816</millis>
+  <sequence>72</sequence>
+  <logger>org.netbeans.ui.maven.project</logger>
+  <level>800</level>
+  <thread>25</thread>
+  <message>UI_MAVEN_PROJECT_OPENED</message>
+  <key>UI_MAVEN_PROJECT_OPENED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>jar</param>
+</record>
+<record>
+  <date>2025-09-14T20:59:23</date>
+  <millis>1757863763816</millis>
+  <sequence>73</sequence>
+  <logger>org.netbeans.ui.metrics.maven</logger>
+  <level>800</level>
+  <thread>25</thread>
+  <message>USG_PROJECT_OPEN_MAVEN</message>
+  <param>jar</param>
+</record>
+<record>
+  <date>2025-09-14T20:59:25</date>
+  <millis>1757863765425</millis>
+  <sequence>78</sequence>
+  <logger>org.netbeans.ui.web.project</logger>
+  <level>800</level>
+  <thread>25</thread>
+  <message>UI_WEB_PROJECT_OPENED</message>
+  <key>UI_WEB_PROJECT_OPENED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>gfv3ee6</param>
+  <param>[C:\Program Files (x86)\glassfish-4.1.1\glassfish;C:\Program Files (x86)\glassfish-4.1.1\glassfish\domains\domain1]deployer:gfv3ee6wc:localhost:4848</param>
+</record>
+<record>
+  <date>2025-09-14T20:59:25</date>
+  <millis>1757863765534</millis>
+  <sequence>79</sequence>
+  <logger>org.netbeans.ui.metrics.web.project</logger>
+  <level>800</level>
+  <thread>25</thread>
+  <message>USG_PROJECT_OPEN_WEB</message>
+  <key>USG_PROJECT_OPEN_WEB</key>
+  <catalog>org.netbeans.modules.web.project.Bundle</catalog>
+  <param>GlassFish Server</param>
+  <param>1.7-web</param>
+</record>
+<record>
+  <date>2025-09-14T20:59:30</date>
+  <millis>1757863770097</millis>
+  <sequence>84</sequence>
+  <logger>org.netbeans.ui.projects</logger>
+  <level>700</level>
+  <thread>25</thread>
+  <message>UI_INIT_PROJECTS</message>
+  <key>UI_INIT_PROJECTS</key>
+  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
+  <param>org.netbeans.modules.web.project.WebProject</param>
+  <param>WebProject</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2025-09-14T20:59:30</date>
+  <millis>1757863770097</millis>
+  <sequence>85</sequence>
+  <logger>org.netbeans.ui.projects</logger>
+  <level>700</level>
+  <thread>25</thread>
+  <message>UI_INIT_PROJECTS</message>
+  <key>UI_INIT_PROJECTS</key>
+  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
+  <param>org.netbeans.modules.maven.NbMavenProjectImpl</param>
+  <param>NbMavenProjectImpl</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2025-09-14T20:59:30</date>
+  <millis>1757863770097</millis>
+  <sequence>86</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>800</level>
+  <thread>25</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.maven.NbMavenProjectImpl</param>
+</record>
+<record>
+  <date>2025-09-14T20:59:30</date>
+  <millis>1757863770097</millis>
+  <sequence>87</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>800</level>
+  <thread>25</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.web.project.WebProject</param>
+</record>
+<record>
+  <date>2025-09-14T20:59:30</date>
+  <millis>1757863770144</millis>
+  <sequence>88</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>42</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2025-09-14T20:59:37</date>
+  <millis>1757863777432</millis>
+  <sequence>131</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>42</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>7288</param>
+  <param>java</param>
+  <param>97</param>
+  <param>5298</param>
+  <param>SpringBinary</param>
+  <param>96</param>
+  <param>0</param>
+  <param>TaskListIndexer</param>
+  <param>1</param>
+  <param>15</param>
+  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
+  <param>1</param>
+  <param>157</param>
+  <param>CopyResourcesIndexer</param>
+  <param>1</param>
+  <param>0</param>
+  <param>jsfBinary</param>
+  <param>96</param>
+  <param>45</param>
+  <param>jsfCustomIndexer</param>
+  <param>1</param>
+  <param>15</param>
+  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
+  <param>1</param>
+  <param>0</param>
+</record>
+<record>
+  <date>2025-09-14T20:59:37</date>
+  <millis>1757863777432</millis>
+  <sequence>132</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>42</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2025-09-14T20:59:43</date>
+  <millis>1757863783541</millis>
+  <sequence>145</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>42</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>6109</param>
+  <param>java</param>
+  <param>112</param>
+  <param>2766</param>
+  <param>SpringBinary</param>
+  <param>108</param>
+  <param>15</param>
+  <param>TaskListIndexer</param>
+  <param>4</param>
+  <param>0</param>
+  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
+  <param>4</param>
+  <param>202</param>
+  <param>CopyResourcesIndexer</param>
+  <param>4</param>
+  <param>0</param>
+  <param>jsfBinary</param>
+  <param>108</param>
+  <param>235</param>
+  <param>jsfCustomIndexer</param>
+  <param>4</param>
+  <param>0</param>
+  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
+  <param>4</param>
+  <param>0</param>
+</record>
+<record>
+  <date>2025-09-14T20:59:52</date>
+  <millis>1757863792119</millis>
+  <sequence>146</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>19</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>javax.swing.JMenuItem[Clean and Build]</param>
+  <param>javax.swing.JMenuItem</param>
+  <param>org.netbeans.modules.project.ui.actions.ProjectAction[Clean and Build Project]</param>
+  <param>org.netbeans.modules.project.ui.actions.ProjectAction</param>
+  <param>Clean and Build Project</param>
+</record>
+<record>
+  <date>2025-09-14T20:59:52</date>
+  <millis>1757863792134</millis>
+  <sequence>147</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>500</level>
+  <thread>19</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>javax.swing.JMenuItem[Clean and Build]</param>
+  <param>javax.swing.JMenuItem</param>
+  <param>org.netbeans.modules.project.ui.actions.ProjectAction[Clean and Build Project]</param>
+  <param>org.netbeans.modules.project.ui.actions.ProjectAction</param>
+  <param>Clean and Build Project</param>
+</record>
+<record>
+  <date>2025-09-14T20:59:52</date>
+  <millis>1757863792150</millis>
+  <sequence>148</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>500</level>
+  <thread>19</thread>
+  <message>PROJECT_ACTION</message>
+  <key>PROJECT_ACTION</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>org.netbeans.modules.project.ui.actions.ProjectAction</param>
+  <param>org.netbeans.modules.web.project.WebProject</param>
+  <param>Clean and Build Project</param>
+</record>
+<record>
+  <date>2025-09-14T20:59:56</date>
+  <millis>1757863796040</millis>
+  <sequence>150</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>22</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>12499</param>
+</record>
+<record>
+  <date>2025-09-14T20:59:57</date>
+  <millis>1757863797462</millis>
+  <sequence>157</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>22</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>1422</param>
+  <param>TaskListIndexer</param>
+  <param>3</param>
+  <param>0</param>
+  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
+  <param>3</param>
+  <param>0</param>
+  <param>jsfCustomIndexer</param>
+  <param>3</param>
+  <param>0</param>
+  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
+  <param>3</param>
+  <param>0</param>
+</record>
+<record>
+  <date>2025-09-14T20:59:58</date>
+  <millis>1757863798962</millis>
+  <sequence>160</sequence>
+  <logger>org.netbeans.modules.web.core.jsploader.BaseJspEditorSupport$4</logger>
+  <level>800</level>
+  <thread>27</thread>
+  <message>property change fired with both new and old value null!</message>
+  <exception>
+    <message>java.lang.IllegalStateException</message>
+    <frame>
+      <class>org.netbeans.modules.web.core.jsploader.BaseJspEditorSupport$4</class>
+      <method>propertyChange</method>
+      <line>190</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-web-core.jar</file>
+    </frame>
+    <frame>
+      <class>java.beans.PropertyChangeSupport</class>
+      <method>fire</method>
+      <line>335</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.beans.PropertyChangeSupport</class>
+      <method>firePropertyChange</method>
+      <line>327</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.beans.PropertyChangeSupport</class>
+      <method>firePropertyChange</method>
+      <line>263</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.text.CloneableEditorSupport</class>
+      <method>firePropertyChange</method>
+      <line>484</line>
+      <file>${netbeans.home}modules/org-openide-text.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.text.CloneableEditorSupport</class>
+      <method>fireDocumentChange</method>
+      <line>1778</line>
+      <file>${netbeans.home}modules/org-openide-text.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.text.DocumentOpenClose$DocumentClose</class>
+      <method>run</method>
+      <line>999</line>
+      <file>${netbeans.home}modules/org-openide-text.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.util.RequestProcessor$Task</class>
+      <method>run</method>
+      <line>1443</line>
+      <file>${netbeans.home}lib/org-openide-util.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.openide.util.GlobalLookup</class>
+      <method>execute</method>
+      <line>68</line>
+      <file>${netbeans.home}lib/org-openide-util-lookup.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.util.lookup.Lookups</class>
+      <method>executeWith</method>
+      <line>303</line>
+      <file>${netbeans.home}lib/org-openide-util-lookup.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.util.RequestProcessor$Processor</class>
+      <method>run</method>
+      <line>2058</line>
+      <file>${netbeans.home}lib/org-openide-util.jar</file>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2025-09-14T21:00:06</date>
+  <millis>1757863806571</millis>
+  <sequence>162</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>23</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>9109</param>
+</record>
+<record>
+  <date>2025-09-14T21:00:06</date>
+  <millis>1757863806649</millis>
+  <sequence>163</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>23</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>78</param>
+  <param>java</param>
+  <param>1</param>
+  <param>15</param>
+  <param>TaskListIndexer</param>
+  <param>1</param>
+  <param>0</param>
+  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
+  <param>1</param>
+  <param>0</param>
+  <param>CopyResourcesIndexer</param>
+  <param>1</param>
+  <param>0</param>
+  <param>jsfCustomIndexer</param>
+  <param>1</param>
+  <param>0</param>
+  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
+  <param>1</param>
+  <param>0</param>
+</record>
+<record>
+  <date>2025-09-14T21:00:06</date>
+  <millis>1757863806649</millis>
+  <sequence>164</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>23</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2025-09-14T21:00:06</date>
+  <millis>1757863806649</millis>
+  <sequence>165</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>23</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2025-09-14T21:00:07</date>
+  <millis>1757863807071</millis>
+  <sequence>166</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>19</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>javax.swing.JMenuItem[Run]</param>
+  <param>javax.swing.JMenuItem</param>
+  <param>org.netbeans.modules.project.ui.actions.ProjectAction[Run Project]</param>
+  <param>org.netbeans.modules.project.ui.actions.ProjectAction</param>
+  <param>Run Project</param>
+</record>
+<record>
+  <date>2025-09-14T21:00:07</date>
+  <millis>1757863807071</millis>
+  <sequence>167</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>500</level>
+  <thread>19</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>javax.swing.JMenuItem[Run]</param>
+  <param>javax.swing.JMenuItem</param>
+  <param>org.netbeans.modules.project.ui.actions.ProjectAction[Run Project]</param>
+  <param>org.netbeans.modules.project.ui.actions.ProjectAction</param>
+  <param>Run Project</param>
+</record>
+<record>
+  <date>2025-09-14T21:00:07</date>
+  <millis>1757863807086</millis>
+  <sequence>168</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>500</level>
+  <thread>19</thread>
+  <message>PROJECT_ACTION</message>
+  <key>PROJECT_ACTION</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>org.netbeans.modules.project.ui.actions.ProjectAction</param>
+  <param>org.netbeans.modules.web.project.WebProject</param>
+  <param>Run Project</param>
+</record>
+<record>
+  <date>2025-09-14T21:00:07</date>
+  <millis>1757863807196</millis>
+  <sequence>169</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>27</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>547</param>
+</record>
+<record>
+  <date>2025-09-14T21:00:07</date>
+  <millis>1757863807196</millis>
+  <sequence>170</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>27</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2025-09-14T21:00:14</date>
+  <millis>1757863814655</millis>
+  <sequence>171</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>27</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>7459</param>
+</record>
+<record>
+  <date>2025-09-14T21:00:14</date>
+  <millis>1757863814655</millis>
+  <sequence>172</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>27</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2025-09-14T21:00:27</date>
+  <millis>1757863827897</millis>
+  <sequence>175</sequence>
+  <logger>org.netbeans.ui.metrics.web.project</logger>
+  <level>800</level>
+  <thread>69</thread>
+  <message>USG_PROJECT_BROWSER</message>
+  <key>USG_PROJECT_BROWSER</key>
+  <catalog>org.netbeans.modules.web.common.api.Bundle</catalog>
+  <param>org.netbeans.modules.web.project</param>
+  <param>SL[/Browsers/External Browser</param>
+  <param>UNKNOWN</param>
+</record>
+<record>
+  <date>2025-09-14T21:00:28</date>
+  <millis>1757863828592</millis>
+  <sequence>177</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2025-09-14T21:00:29</date>
+  <millis>1757863829945</millis>
+  <sequence>178</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>27</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>15290</param>
+</record>
+<record>
+  <date>2025-09-14T21:00:29</date>
+  <millis>1757863829945</millis>
+  <sequence>179</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>27</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2025-09-14T21:00:36</date>
+  <millis>1757863836454</millis>
+  <sequence>181</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>27</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>110</param>
+</record>
+<record>
+  <date>2025-09-14T21:00:56</date>
+  <millis>1757863856015</millis>
+  <sequence>183</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>19</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>javax.swing.JMenuItem[Run File]</param>
+  <param>javax.swing.JMenuItem</param>
+  <param>org.netbeans.modules.project.ui.actions.FileAction[Run &amp;File]</param>
+  <param>org.netbeans.modules.project.ui.actions.FileAction</param>
+  <param>Run &amp;File</param>
+</record>
+<record>
+  <date>2025-09-14T21:00:56</date>
+  <millis>1757863856015</millis>
+  <sequence>184</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>500</level>
+  <thread>19</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>javax.swing.JMenuItem[Run File]</param>
+  <param>javax.swing.JMenuItem</param>
+  <param>org.netbeans.modules.project.ui.actions.FileAction[Run &amp;File]</param>
+  <param>org.netbeans.modules.project.ui.actions.FileAction</param>
+  <param>Run &amp;File</param>
+</record>
+<record>
+  <date>2025-09-14T21:00:58</date>
+  <millis>1757863858062</millis>
+  <sequence>187</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>27</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>28117</param>
+</record>
+<record>
+  <date>2025-09-14T21:00:58</date>
+  <millis>1757863858062</millis>
+  <sequence>188</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>27</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2025-09-14T21:01:02</date>
+  <millis>1757863862333</millis>
+  <sequence>189</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2025-09-14T21:01:03</date>
+  <millis>1757863863254</millis>
+  <sequence>190</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>27</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>5192</param>
+</record>
+<record>
+  <date>2025-09-14T21:01:03</date>
+  <millis>1757863863254</millis>
+  <sequence>191</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>27</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2025-09-14T21:01:26</date>
+  <millis>1757863886179</millis>
+  <sequence>193</sequence>
+  <logger>org.netbeans.modules.maven.indexer.NexusRepositoryIndexerImpl</logger>
+  <level>800</level>
+  <thread>22</thread>
+  <message>could not (re-)index central</message>
+  <exception>
+    <message>java.io.IOException: Transfer for nexus-maven-repository-index.properties failed; repo.maven.apache.org</message>
+    <frame>
+      <class>org.apache.maven.index.updater.WagonHelper$WagonFetcher</class>
+      <method>retrieve</method>
+      <line>245</line>
+      <file>${netBeansDir}modules/ext/maven/indexer-core-5.1.1-patched.jar</file>
+    </frame>
+    <frame>
+      <class>org.apache.maven.index.updater.WagonHelper$WagonFetcher</class>
+      <method>retrieve</method>
+      <line>202</line>
+      <file>${netBeansDir}modules/ext/maven/indexer-core-5.1.1-patched.jar</file>
+    </frame>
+    <frame>
+      <class>org.apache.maven.index.updater.DefaultIndexUpdater</class>
+      <method>downloadIndexProperties</method>
+      <line>459</line>
+      <file>${netBeansDir}modules/ext/maven/indexer-core-5.1.1-patched.jar</file>
+    </frame>
+    <frame>
+      <class>org.apache.maven.index.updater.DefaultIndexUpdater</class>
+      <method>access$000</method>
+      <line>76</line>
+      <file>${netBeansDir}modules/ext/maven/indexer-core-5.1.1-patched.jar</file>
+    </frame>
+    <frame>
+      <class>org.apache.maven.index.updater.DefaultIndexUpdater$IndexAdaptor</class>
+      <method>setProperties</method>
+      <line>589</line>
+      <file>${netBeansDir}modules/ext/maven/indexer-core-5.1.1-patched.jar</file>
+    </frame>
+    <frame>
+      <class>org.apache.maven.index.updater.DefaultIndexUpdater</class>
+      <method>fetchAndUpdateIndex</method>
+      <line>814</line>
+      <file>${netBeansDir}modules/ext/maven/indexer-core-5.1.1-patched.jar</file>
+    </frame>
+    <frame>
+      <class>org.apache.maven.index.updater.DefaultIndexUpdater</class>
+      <method>fetchAndUpdateIndex</method>
+      <line>157</line>
+      <file>${netBeansDir}modules/ext/maven/indexer-core-5.1.1-patched.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.maven.indexer.NexusRepositoryIndexerImpl</class>
+      <method>indexLoadedRepo</method>
+      <line>546</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-maven-indexer.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.maven.indexer.NexusRepositoryIndexerImpl</class>
+      <method>access$200</method>
+      <line>143</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-maven-indexer.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.maven.indexer.NexusRepositoryIndexerImpl$3</class>
+      <method>run</method>
+      <line>665</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-maven-indexer.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.maven.indexer.NexusRepositoryIndexerImpl$3</class>
+      <method>run</method>
+      <line>658</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-maven-indexer.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.openide.util.DefaultMutexImplementation</class>
+      <method>writeAccess</method>
+      <line>250</line>
+      <file>${netbeans.home}lib/org-openide-util.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.util.Mutex</class>
+      <method>writeAccess</method>
+      <line>271</line>
+      <file>${netbeans.home}lib/org-openide-util.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.maven.indexer.NexusRepositoryIndexerImpl</class>
+      <method>indexRepo</method>
+      <line>658</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-maven-indexer.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.maven.indexer.api.RepositoryIndexer</class>
+      <method>indexRepo</method>
+      <line>64</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-maven-indexer.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.maven.ProjectOpenedHookImpl$2</class>
+      <method>run</method>
+      <line>230</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-maven.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.util.RequestProcessor$Task</class>
+      <method>run</method>
+      <line>1443</line>
+      <file>${netbeans.home}lib/org-openide-util.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.openide.util.GlobalLookup</class>
+      <method>execute</method>
+      <line>68</line>
+      <file>${netbeans.home}lib/org-openide-util-lookup.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.util.lookup.Lookups</class>
+      <method>executeWith</method>
+      <line>303</line>
+      <file>${netbeans.home}lib/org-openide-util-lookup.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.util.RequestProcessor$Processor</class>
+      <method>run</method>
+      <line>2058</line>
+      <file>${netbeans.home}lib/org-openide-util.jar</file>
+    </frame>
+  </exception>
+  <exception>
+   <message>org.apache.maven.wagon.TransferFailedException: repo.maven.apache.org</message>
+    <frame>
+      <class>org.apache.maven.wagon.providers.http.AbstractHttpClientWagon</class>
+      <method>fillInputData</method>
+      <line>1066</line>
+      <file>${netBeansDir}maven/lib/wagon-http-2.10-shaded.jar</file>
+    </frame>
+    <frame>
+      <class>org.apache.maven.wagon.providers.http.AbstractHttpClientWagon</class>
+      <method>fillInputData</method>
+      <line>960</line>
+      <file>${netBeansDir}maven/lib/wagon-http-2.10-shaded.jar</file>
+    </frame>
+    <frame>
+      <class>org.apache.maven.wagon.StreamWagon</class>
+      <method>getInputStream</method>
+      <line>116</line>
+      <file>${netBeansDir}maven/lib/wagon-provider-api-2.10.jar</file>
+    </frame>
+    <frame>
+      <class>org.apache.maven.wagon.StreamWagon</class>
+      <method>getIfNewer</method>
+      <line>88</line>
+      <file>${netBeansDir}maven/lib/wagon-provider-api-2.10.jar</file>
+    </frame>
+    <frame>
+      <class>org.apache.maven.wagon.StreamWagon</class>
+      <method>get</method>
+      <line>61</line>
+      <file>${netBeansDir}maven/lib/wagon-provider-api-2.10.jar</file>
+    </frame>
+    <frame>
+      <class>org.apache.maven.index.updater.WagonHelper$WagonFetcher</class>
+      <method>retrieve</method>
+      <line>220</line>
+      <file>${netBeansDir}modules/ext/maven/indexer-core-5.1.1-patched.jar</file>
+    </frame>
+   <more>19</more>
+  </exception>
+  <exception>
+   <message>java.net.UnknownHostException: repo.maven.apache.org</message>
+    <frame>
+      <class>java.net.InetAddress</class>
+      <method>getAllByName0</method>
+      <line>1281</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.net.InetAddress</class>
+      <method>getAllByName</method>
+      <line>1193</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.net.InetAddress</class>
+      <method>getAllByName</method>
+      <line>1127</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>org.apache.maven.wagon.providers.http.httpclient.impl.conn.SystemDefaultDnsResolver</class>
+      <method>resolve</method>
+      <line>44</line>
+      <file>${netBeansDir}maven/lib/wagon-http-2.10-shaded.jar</file>
+    </frame>
+    <frame>
+      <class>org.apache.maven.wagon.providers.http.httpclient.impl.conn.HttpClientConnectionOperator</class>
+      <method>connect</method>
+      <line>101</line>
+      <file>${netBeansDir}maven/lib/wagon-http-2.10-shaded.jar</file>
+    </frame>
+    <frame>
+      <class>org.apache.maven.wagon.providers.http.httpclient.impl.conn.PoolingHttpClientConnectionManager</class>
+      <method>connect</method>
+      <line>318</line>
+      <file>${netBeansDir}maven/lib/wagon-http-2.10-shaded.jar</file>
+    </frame>
+    <frame>
+      <class>org.apache.maven.wagon.providers.http.httpclient.impl.execchain.MainClientExec</class>
+      <method>establishRoute</method>
+      <line>363</line>
+      <file>${netBeansDir}maven/lib/wagon-http-2.10-shaded.jar</file>
+    </frame>
+    <frame>
+      <class>org.apache.maven.wagon.providers.http.httpclient.impl.execchain.MainClientExec</class>
+      <method>execute</method>
+      <line>219</line>
+      <file>${netBeansDir}maven/lib/wagon-http-2.10-shaded.jar</file>
+    </frame>
+    <frame>
+      <class>org.apache.maven.wagon.providers.http.httpclient.impl.execchain.ProtocolExec</class>
+      <method>execute</method>
+      <line>195</line>
+      <file>${netBeansDir}maven/lib/wagon-http-2.10-shaded.jar</file>
+    </frame>
+    <frame>
+      <class>org.apache.maven.wagon.providers.http.httpclient.impl.execchain.RetryExec</class>
+      <method>execute</method>
+      <line>86</line>
+      <file>${netBeansDir}maven/lib/wagon-http-2.10-shaded.jar</file>
+    </frame>
+    <frame>
+      <class>org.apache.maven.wagon.providers.http.httpclient.impl.execchain.RedirectExec</class>
+      <method>execute</method>
+      <line>108</line>
+      <file>${netBeansDir}maven/lib/wagon-http-2.10-shaded.jar</file>
+    </frame>
+    <frame>
+      <class>org.apache.maven.wagon.providers.http.httpclient.impl.client.InternalHttpClient</class>
+      <method>doExecute</method>
+      <line>184</line>
+      <file>${netBeansDir}maven/lib/wagon-http-2.10-shaded.jar</file>
+    </frame>
+    <frame>
+      <class>org.apache.maven.wagon.providers.http.httpclient.impl.client.CloseableHttpClient</class>
+      <method>execute</method>
+      <line>82</line>
+      <file>${netBeansDir}maven/lib/wagon-http-2.10-shaded.jar</file>
+    </frame>
+    <frame>
+      <class>org.apache.maven.wagon.providers.http.AbstractHttpClientWagon</class>
+      <method>execute</method>
+      <line>832</line>
+      <file>${netBeansDir}maven/lib/wagon-http-2.10-shaded.jar</file>
+    </frame>
+    <frame>
+      <class>org.apache.maven.wagon.providers.http.AbstractHttpClientWagon</class>
+      <method>fillInputData</method>
+      <line>983</line>
+      <file>${netBeansDir}maven/lib/wagon-http-2.10-shaded.jar</file>
+    </frame>
+   <more>24</more>
+  </exception>
+</record>
+<record>
+  <date>2025-09-14T21:04:16</date>
+  <millis>1757864056286</millis>
+  <sequence>194</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>121</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>172</param>
+</record>
+<record>
+  <date>2025-09-14T21:04:20</date>
+  <millis>1757864060629</millis>
+  <sequence>195</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2025-09-14T21:09:37</date>
+  <millis>1757864377051</millis>
+  <sequence>196</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>177</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>110</param>
+</record>
+<record>
+  <date>2025-09-14T21:11:13</date>
+  <millis>1757864473153</millis>
+  <sequence>197</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>

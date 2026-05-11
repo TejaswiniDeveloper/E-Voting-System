@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="com.fizzed.blaze.netbeans">
+    <module_version install_time="1735968261781" last="true" origin="NetBeans Plugin Portal" specification_version="2.0.0">
+        <file crc="3486259410" name="config/Modules/com-fizzed-blaze-netbeans.xml"/>
+        <file crc="4294298022" name="modules/com-fizzed-blaze-netbeans.jar"/>
+        <file crc="2473978916" name="modules/ext/com.fizzed.blaze-netbeans/com-fizzed/blaze-core.jar"/>
+        <file crc="1657353398" name="modules/ext/com.fizzed.blaze-netbeans/com-fizzed/blaze-ivy.jar"/>
+        <file crc="2870179274" name="modules/ext/com.fizzed.blaze-netbeans/com-typesafe/config.jar"/>
+        <file crc="691235724" name="modules/ext/com.fizzed.blaze-netbeans/commons-codec/commons-codec.jar"/>
+        <file crc="157344583" name="modules/ext/com.fizzed.blaze-netbeans/commons-io/commons-io.jar"/>
+        <file crc="908197187" name="modules/ext/com.fizzed.blaze-netbeans/commons-logging/commons-logging.jar"/>
+        <file crc="785747197" name="modules/ext/com.fizzed.blaze-netbeans/org-apache-httpcomponents/httpclient.jar"/>
+        <file crc="1829156962" name="modules/ext/com.fizzed.blaze-netbeans/org-apache-httpcomponents/httpcore.jar"/>
+        <file crc="2525196551" name="modules/ext/com.fizzed.blaze-netbeans/org-apache-ivy/ivy.jar"/>
+        <file crc="1722307310" name="modules/ext/com.fizzed.blaze-netbeans/org-slf4j/slf4j-api.jar"/>
+        <file crc="289984435" name="modules/ext/com.fizzed.blaze-netbeans/org-zeroturnaround/zt-exec.jar"/>
+    </module_version>
+</module>

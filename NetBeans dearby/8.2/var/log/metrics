@@ -1,0 +1,57 @@
+<record>
+  <date>2025-09-14T20:59:23</date>
+  <millis>1757863763816</millis>
+  <sequence>73</sequence>
+  <logger>org.netbeans.ui.metrics.maven</logger>
+  <level>800</level>
+  <thread>25</thread>
+  <message>USG_PROJECT_OPEN_MAVEN</message>
+  <param>jar</param>
+</record>
+<record>
+  <date>2025-09-14T20:59:25</date>
+  <millis>1757863765534</millis>
+  <sequence>79</sequence>
+  <logger>org.netbeans.ui.metrics.web.project</logger>
+  <level>800</level>
+  <thread>25</thread>
+  <message>USG_PROJECT_OPEN_WEB</message>
+  <key>USG_PROJECT_OPEN_WEB</key>
+  <catalog>org.netbeans.modules.web.project.Bundle</catalog>
+  <param>GlassFish Server</param>
+  <param>1.7-web</param>
+</record>
+<record>
+  <date>2025-09-14T20:59:30</date>
+  <millis>1757863770097</millis>
+  <sequence>86</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>800</level>
+  <thread>25</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.maven.NbMavenProjectImpl</param>
+</record>
+<record>
+  <date>2025-09-14T20:59:30</date>
+  <millis>1757863770097</millis>
+  <sequence>87</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>800</level>
+  <thread>25</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.web.project.WebProject</param>
+</record>
+<record>
+  <date>2025-09-14T21:00:27</date>
+  <millis>1757863827897</millis>
+  <sequence>175</sequence>
+  <logger>org.netbeans.ui.metrics.web.project</logger>
+  <level>800</level>
+  <thread>69</thread>
+  <message>USG_PROJECT_BROWSER</message>
+  <key>USG_PROJECT_BROWSER</key>
+  <catalog>org.netbeans.modules.web.common.api.Bundle</catalog>
+  <param>org.netbeans.modules.web.project</param>
+  <param>SL[/Browsers/External Browser</param>
+  <param>UNKNOWN</param>
+</record>

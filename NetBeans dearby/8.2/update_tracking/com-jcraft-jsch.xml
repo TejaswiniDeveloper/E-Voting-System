@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="com.jcraft.jsch">
+    <module_version install_time="1736507513321" last="true" origin="NetBeans Distribution" specification_version="0.1.54">
+        <file crc="469479230" name="modules/com-jcraft-jsch.jar"/>
+        <file crc="4182763561" name="config/Modules/com-jcraft-jsch.xml"/>
+    </module_version>
+</module>

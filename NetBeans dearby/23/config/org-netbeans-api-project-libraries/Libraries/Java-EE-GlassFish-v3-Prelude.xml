@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.netbeans.org/ns/library-declaration/3" version="3.0">
+    <name>Java-EE-GlassFish-v3-Prelude</name>
+    <type>j2se</type>
+    <description>Java EE jars that are bundled with the most recently registered GlassFish installation</description>
+    <display-name>Java EE from GlassFish</display-name>
+    <volume>
+        <type>classpath</type>
+        <resource>jar:file:/C:/Users/LENOVO/GlassFish_Server/glassfish/modules/endorsed/javax.annotation.jar!/</resource>
+        <resource>jar:file:/C:/Users/LENOVO/GlassFish_Server/glassfish/modules/endorsed/jaxb-api-osgi.jar!/</resource>
+        <resource>jar:file:/C:/Users/LENOVO/GlassFish_Server/glassfish/modules/endorsed/webservices-api-osgi.jar!/</resource>
+        <resource>jar:file:/C:/Users/LENOVO/GlassFish_Server/glassfish/modules/bean-validator.jar!/</resource>
+        <resource>jar:file:/C:/Users/LENOVO/GlassFish_Server/glassfish/modules/javax.ejb.jar!/</resource>
+        <resource>jar:file:/C:/Users/LENOVO/GlassFish_Server/glassfish/modules/javax.enterprise.deploy.jar!/</resource>
+        <resource>jar:file:/C:/Users/LENOVO/GlassFish_Server/glassfish/modules/javax.jms.jar!/</resource>
+        <resource>jar:file:/C:/Users/LENOVO/GlassFish_Server/glassfish/modules/javax.mail.jar!/</resource>
+        <resource>jar:file:/C:/Users/LENOVO/GlassFish_Server/glassfish/modules/javax.management.j2ee.jar!/</resource>
+        <resource>jar:file:/C:/Users/LENOVO/GlassFish_Server/glassfish/modules/javax.persistence.jar!/</resource>
+        <resource>jar:file:/C:/Users/LENOVO/GlassFish_Server/glassfish/modules/javax.resource.jar!/</resource>
+        <resource>jar:file:/C:/Users/LENOVO/GlassFish_Server/glassfish/modules/javax.security.auth.message.jar!/</resource>
+        <resource>jar:file:/C:/Users/LENOVO/GlassFish_Server/glassfish/modules/javax.security.jacc.jar!/</resource>
+        <resource>jar:file:/C:/Users/LENOVO/GlassFish_Server/glassfish/modules/javax.servlet.jar!/</resource>
+        <resource>jar:file:/C:/Users/LENOVO/GlassFish_Server/glassfish/modules/javax.servlet.jsp.jar!/</resource>
+        <resource>jar:file:/C:/Users/LENOVO/GlassFish_Server/glassfish/modules/javax.servlet.jsp.jstl.jar!/</resource>
+        <resource>jar:file:/C:/Users/LENOVO/GlassFish_Server/glassfish/modules/javax.transaction.jar!/</resource>
+        <resource>jar:file:/C:/Users/LENOVO/GlassFish_Server/glassfish/modules/jaxb-osgi.jar!/</resource>
+        <resource>jar:file:/C:/Users/LENOVO/GlassFish_Server/glassfish/modules/jersey-core.jar!/</resource>
+        <resource>jar:file:/C:/Users/LENOVO/GlassFish_Server/glassfish/modules/webservices-osgi.jar!/</resource>
+        <resource>jar:file:/C:/Users/LENOVO/GlassFish_Server/glassfish/modules/weld-osgi-bundle.jar!/</resource>
+        <resource>jar:file:/C:/Users/LENOVO/GlassFish_Server/mq/lib/jaxm-api.jar!/</resource>
+    </volume>
+    <volume>
+        <type>src</type>
+    </volume>
+    <volume>
+        <type>javadoc</type>
+        <resource>jar:file:/C:/Program%20Files/NetBeans-23/netbeans/enterprise/docs/javaee-doc-api.jar!/</resource>
+    </volume>
+    <volume>
+        <type>maven-pom</type>
+    </volume>
+    <properties/>
+</library>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="anonymousMode_2">
+        <attr name="WinSys-TCRef-Order" stringvalue="output"/>
+    </fileobject>
+    <fileobject name="bottomSlidingSide">
+        <attr name="WinSys-TCRef-Order" stringvalue=""/>
+    </fileobject>
+    <fileobject name="code_evaluator">
+        <attr name="WinSys-TCRef-Order" stringvalue="evaluatorPane"/>
+    </fileobject>
+    <fileobject name="commonpalette">
+        <attr name="WinSys-TCRef-Order" stringvalue="CommonPalette"/>
+    </fileobject>
+    <fileobject name="editor">
+        <attr name="WinSys-TCRef-Order" stringvalue="projectTabLogical_tc/services/Welcome/MultiView-jsp#002EsouF454976Ft#002Ehistory#007C_10/SQL 4#002Esql_1/SQL 1#002Esql_1/SQL 2#002Esql_1/SQL 3#002Esql_1/SQL 2#002Esql/SQL 3#002Esql/SQL 4#002Esql/SQL 5#002Esql/SQL 6#002Esql/SQL 7#002Esql/SQL 8#002Esql/SQL 9#002Esql_1/MultiView-html#002EsoD3B7C253xt#002Ehistory#007C_1/MultiView-java#002Eso2D0988CFtext#002Ehistory#007C/CoverageReportTopComponent/MultiView-jsp#002Esou312C04E2xt#002Ehistory#007C_2/HQLEditorTopComponent/dbgInstances/MultiView-jsp#002EsouD0E678EFtext#002Ehistory#007C"/>
+    </fileobject>
+    <fileobject name="explorer">
+        <attr name="WinSys-TCRef-Order" stringvalue="projectTab_tc/DashboardTopComponent/debuggingView"/>
+    </fileobject>
+    <fileobject name="leftSlidingSide">
+        <attr name="WinSys-TCRef-Order" stringvalue="favorites"/>
+    </fileobject>
+    <fileobject name="navigator">
+        <attr name="WinSys-TCRef-Order" stringvalue="navigatorTC/DomTC"/>
+    </fileobject>
+    <fileobject name="output">
+        <attr name="WinSys-TCRef-Order" stringvalue="watchesView/NotificationCenterTopComponent/localsView/resultsView/callstackView/breakpointsView/sources/sessionsView/threadsView/bookmarks/versioning_output/search-results/gsf-testrunner-results/refactoring-preview/find-usages/TerminalContainerTopComponent/svnversioning/hgversioningTC/GitVersioning/GitRepositories/TaskListTopComponent/ReporterResultTopComponent/eventsView/profiler_pp/CallHierarchyTopComponent/AnalyzerTopComponent/AnalysisResultTopComponent/JavadocTopComponent/classes"/>
+    </fileobject>
+    <fileobject name="properties">
+        <attr name="WinSys-TCRef-Order" stringvalue="CssStylesTC/properties/AnalyzeStackTopComponent/JavaHierarchyTopComponent/KnockoutTC"/>
+    </fileobject>
+    <fileobject name="rightSlidingSide">
+        <attr name="WinSys-TCRef-Order" stringvalue=""/>
+    </fileobject>
+    <fileobject name="topSlidingSide">
+        <attr name="WinSys-TCRef-Order" stringvalue=""/>
+    </fileobject>
+    <fileobject name="webpreview">
+        <attr name="WinSys-TCRef-Order" stringvalue=""/>
+    </fileobject>
+</attributes>

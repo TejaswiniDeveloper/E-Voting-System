@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE properties PUBLIC "-//io.github.netbeans.mvnrunner//MavenRunnerTopComponent//EN" "http://www.netbeans.org/dtds/properties-1_0.dtd">
+<properties>
+    <property name="expand:Compute Libyear / Actions / E-Voting / Project-Name / " value="false"/>
+    <property name="expand:maven-clean-plugin / Plugins / E-Voting / Project-Name / " value="false"/>
+    <property name="expand:Lifecycle / E-Voting / Project-Name / " value="false"/>
+    <property name="expand:Add/Update Wrapper (mvnw) / Actions / E-Voting / Project-Name / " value="false"/>
+    <property name="expand:maven-dependency-plugin / Plugins / E-Voting / Project-Name / " value="false"/>
+    <property name="expand:release-profile / Profiles / E-Voting / Project-Name / " value="false"/>
+    <property name="expand:Dependency Tree (plugins) / Actions / E-Voting / Project-Name / " value="false"/>
+    <property name="expand:Compute Libyear (plugins) / Actions / E-Voting / Project-Name / " value="false"/>
+    <property name="expand:maven-compiler-plugin / Plugins / E-Voting / Project-Name / " value="false"/>
+    <property name="version" value="1.0"/>
+    <property name="expand:maven-install-plugin / Plugins / E-Voting / Project-Name / " value="false"/>
+    <property name="expand:maven-surefire-plugin / Plugins / E-Voting / Project-Name / " value="false"/>
+    <property name="expand:Actions / E-Voting / Project-Name / " value="false"/>
+    <property name="expand:Dependency Tree / Actions / E-Voting / Project-Name / " value="false"/>
+    <property name="expand:Plugins / E-Voting / Project-Name / " value="false"/>
+    <property name="expand:maven-resources-plugin / Plugins / E-Voting / Project-Name / " value="false"/>
+    <property name="expand:E-Voting / Project-Name / " value="false"/>
+    <property name="expand:Profiles / E-Voting / Project-Name / " value="false"/>
+    <property name="expand: / Actions / E-Voting / Project-Name / " value="false"/>
+    <property name="expand:Project-Name / " value="true"/>
+    <property name="expand:maven-war-plugin / Plugins / E-Voting / Project-Name / " value="false"/>
+    <property name="expand:maven-site-plugin / Plugins / E-Voting / Project-Name / " value="false"/>
+    <property name="expand:maven-deploy-plugin / Plugins / E-Voting / Project-Name / " value="false"/>
+</properties>
