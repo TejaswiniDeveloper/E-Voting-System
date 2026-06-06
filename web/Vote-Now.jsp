@@ -4,7 +4,6 @@
 <head>
     <title>Candidate List</title>
     <style>
-    <style>
     *{
         box-sizing: border-box;
         font-family: 'Times New Roman', Times, serif;
@@ -185,10 +184,9 @@
         font-size: 32px;
         text-align: center;
     }
-}
+
             
 </style>
-    </style>
 </head>
 <body>
     <h2 align="center">Candidate List</h2>
