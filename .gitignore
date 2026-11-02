@@ -1,0 +1,16 @@
+@"
+# NetBeans files
+/nbproject/private/
+
+# Build output
+/build/
+/dist/
+
+# Compiled files
+*.class
+*.war
+*.jar
+
+# IDE files
+.vscode/
+"@ | Set-Content .gitignore
